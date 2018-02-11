@@ -1,0 +1,130 @@
+body, header, footer, h1, h2, h3, h4, h5, h6, div, p, pre, nav, article, section, a, span {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul, ol, li {
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+}
+body {
+  font-size: .8rem;
+  color: #333;
+  background-color: #EBEBEB;
+}
+a {
+  text-decoration: none;
+  color: #65c294;
+}
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* header */
+.header {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  padding: 0;
+  color: #FFFFCC;
+  font-size: 1.5rem;
+  font-weight: normal;
+  background-color: #66CC99;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.logo {
+  height: 60px;
+  width: 320px;
+  text-align: center;
+}
+.header .logo-name {
+  height: 60px;
+  display: block;
+  line-height: 60px;
+  color: #FFFFCC;
+  font-size: 1.5rem;
+}
+.nav {
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 320px;
+}
+.nav-menu {
+  height: 60px;
+  vertical-align: top;
+}
+.nav-menu li {
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+}
+.nav a {
+  height: 60px;
+  display: block;
+  color: #FFFFCC;
+  font-size: 1.2rem;
+  line-height: 60px;
+  padding: 0 .8rem;
+}
+.nav .active a {
+  color: #66CC99;
+  background-color: #FFFFCC;
+ /* border-bottom: 5px solid #66CC99;*/
+}
+.nav .subnav {
+  display: none;
+}
+
+/* footer */
+.footer {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  color: #666;
+  background-color: #222;
+  text-align: center;
+}
+/*container*/
+.container {
+  max-width: 1500px;
+  min-height: 660px;
+  margin: 0 auto;
+  padding: 86px 20px 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* sidebar */
+.sidebar {
+  width: 280px;
+  position: absolute;
+  top: 86px;
+  left: 20px;
+}
+.tags-box, .categories-box {
+  padding: .8rem;
+  background-color: #FFF;
+}
+.categories-box {
+  margin-top: 1rem;
+}
+/* main */
+.main-content {
+  padding: .8rem;
+  background-color: #FFF;
+}
+/* 设置padding-left, 显示导航部分 */
+.main-offset {
+  margin-left: 300px;
+}
+.chroma {
+  padding: .2rem .2rem;
+}

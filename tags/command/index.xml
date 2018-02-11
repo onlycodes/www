@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command on 笃行</title>
+    <link>http://duxing.xyz/tags/command/</link>
+    <description>Recent content in Command on 笃行</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 09 Feb 2018 16:20:48 +0800</lastBuildDate>
+    
+	<atom:link href="http://duxing.xyz/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs 常用命令</title>
+      <link>http://duxing.xyz/code/emacs/emacs-command/</link>
+      <pubDate>Fri, 09 Feb 2018 16:20:48 +0800</pubDate>
+      
+      <guid>http://duxing.xyz/code/emacs/emacs-command/</guid>
+      <description>hhhh 移动相关 command description C-x C-s 保存 编辑相关 常用的编辑命令有：</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://duxing.xyz/code/posts/docker%E6%A6%82%E5%BF%B5/</loc>
+    <lastmod>2018-02-08T17:27:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/code/posts/demo/</loc>
+    <lastmod>2018-02-09T17:27:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/note/</loc>
+    <lastmod>2018-02-11T09:57:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/read/</loc>
+    <lastmod>2018-02-11T09:57:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/code/</loc>
+    <lastmod>2018-02-11T09:57:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/code/emacs/emacs-command/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/</loc>
+    <lastmod>2018-02-09T16:19:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/code/posts/hello/</loc>
+    <lastmod>2018-02-08T17:27:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/code/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/command/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/demo/</loc>
+    <lastmod>2018-02-08T17:27:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/categories/development/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/editor/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/emacs/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/categories/emacs/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/hello/</loc>
+    <lastmod>2018-02-08T17:27:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/tags/</loc>
+    <lastmod>2018-02-09T16:20:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://duxing.xyz/alltaxonomies/</loc>
+  </url>
+  
+</urlset>
