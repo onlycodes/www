@@ -128,3 +128,16 @@ a {
 .chroma {
   padding: .2rem .2rem;
 }
+
+@media all and (max-width: 720px) {
+  .logo {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
