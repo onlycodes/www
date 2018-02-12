@@ -94,6 +94,7 @@ a {
 }
 /*container*/
 .container {
+  width: 100%;
   max-width: 1500px;
   min-height: 660px;
   margin: 0 auto;
@@ -139,5 +140,9 @@ a {
 
   .sidebar {
     display: none;
+  }
+
+  .main-offset {
+    margin-left: 0;
   }
 }
