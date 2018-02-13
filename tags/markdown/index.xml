@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 笃行</title>
+    <link>http://duxing.xyz/tags/markdown/</link>
+    <description>Recent content in Markdown on 笃行</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 13 Feb 2018 12:00:08 +0800</lastBuildDate>
+    
+	<atom:link href="http://duxing.xyz/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://duxing.xyz/code/posts/markdown/</link>
+      <pubDate>Tue, 13 Feb 2018 12:00:08 +0800</pubDate>
+      
+      <guid>http://duxing.xyz/code/posts/markdown/</guid>
+      <description>标题一 标题一丶一标题标题标题标题标题标题 标题一点一的段落 表格头 表格头儿hhjhjhjhjhggfhgfgfg 快上车 dfskjfjdk dafafdsd ddd C-x C-s 保存 没什么可解释的 dasfasfsafdsfasf dfsafdafsfsafasf dfasfa C-x C-b 列出bu</description>
+    </item>
+    
+  </channel>
+</rss>
