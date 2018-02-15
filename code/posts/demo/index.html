@@ -6,7 +6,7 @@
     <title>
       笃行 - Hello Org
     </title>
-    <link rel="shortcut icon " type="images/x-icon" href="./favicon.png">
+    <link rel="shortcut icon " type="images/x-icon" href="http://duxing.xyz/favicon.png">
     <link href="http://duxing.xyz/css/style.css" rel="stylesheet" >
     <link href="http://duxing.xyz/css/syntax.css" rel="stylesheet" >
   </head>
@@ -51,6 +51,7 @@
   </ul>
 </nav>
 
+      <div id="navBtn" class="header-nav-btn"></div>
     </header>
     <div id="container" class="container">
       
@@ -157,11 +158,9 @@
     </div>
     </nav>
   </div>
- 
   <div class="table-of-contents">
     
   </div>
- 
 </div>
 
     </div>
@@ -170,5 +169,12 @@
       <span>Powered By </span>
       <a href="http://gohugo.io/" target="_blank">Hugo</a>
     </footer>
+    <script>
+      var navBtn = document.getElementById("navBtn");
+      var nav = document.getElementById('nav');
+      navBtn.addEventListener('click', function () {
+      nav.style.display = 'block';
+      });
+    </script>
   </body>
 </html>

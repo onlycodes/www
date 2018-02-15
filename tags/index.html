@@ -6,7 +6,7 @@
     <title>
       笃行 - Tags
     </title>
-    <link rel="shortcut icon " type="images/x-icon" href="./favicon.png">
+    <link rel="shortcut icon " type="images/x-icon" href="http://duxing.xyz/favicon.png">
     <link href="http://duxing.xyz/css/style.css" rel="stylesheet" >
     <link href="http://duxing.xyz/css/syntax.css" rel="stylesheet" >
   </head>
@@ -51,47 +51,48 @@
   </ul>
 </nav>
 
+      <div id="navBtn" class="header-nav-btn"></div>
     </header>
     <div id="container" class="container">
       
-<div id="list">
-  <p>List</p>
-  <article>
-    <h1>Tags</h1>
-    
-    <div>
-      
-    </div>
-  </article>
-  <ul>
+<div id="list" class="list-box">
+ <h1 class="list-title">Tags</h1>
+  <ul class="list-unstyled">
     
     
-    <li>
-      <a href="http://duxing.xyz/tags/code/">2018-02-09 | Code</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-09</span>
+      <a href="http://duxing.xyz/tags/code/">Code</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/tags/command/">2018-02-09 | Command</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-09</span>
+      <a href="http://duxing.xyz/tags/command/">Command</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/tags/demo/">2018-02-08 | Demo</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-08</span>
+      <a href="http://duxing.xyz/tags/demo/">Demo</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/tags/editor/">2018-02-09 | Editor</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-09</span>
+      <a href="http://duxing.xyz/tags/editor/">Editor</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/tags/emacs/">2018-02-09 | Emacs</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-09</span>
+      <a href="http://duxing.xyz/tags/emacs/">Emacs</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/tags/hello/">2018-02-08 | Hello</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-08</span>
+      <a href="http://duxing.xyz/tags/hello/">Hello</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/tags/markdown/">2018-02-13 | Markdown</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-13</span>
+      <a href="http://duxing.xyz/tags/markdown/">Markdown</a>
     </li>
     
   </ul>
@@ -103,5 +104,12 @@
       <span>Powered By </span>
       <a href="http://gohugo.io/" target="_blank">Hugo</a>
     </footer>
+    <script>
+      var navBtn = document.getElementById("navBtn");
+      var nav = document.getElementById('nav');
+      navBtn.addEventListener('click', function () {
+      nav.style.display = 'block';
+      });
+    </script>
   </body>
 </html>

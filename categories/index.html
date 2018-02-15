@@ -6,7 +6,7 @@
     <title>
       笃行 - Categories
     </title>
-    <link rel="shortcut icon " type="images/x-icon" href="./favicon.png">
+    <link rel="shortcut icon " type="images/x-icon" href="http://duxing.xyz/favicon.png">
     <link href="http://duxing.xyz/css/style.css" rel="stylesheet" >
     <link href="http://duxing.xyz/css/syntax.css" rel="stylesheet" >
   </head>
@@ -51,27 +51,23 @@
   </ul>
 </nav>
 
+      <div id="navBtn" class="header-nav-btn"></div>
     </header>
     <div id="container" class="container">
       
-<div id="list">
-  <p>List</p>
-  <article>
-    <h1>Categories</h1>
-    
-    <div>
-      
-    </div>
-  </article>
-  <ul>
+<div id="list" class="list-box">
+ <h1 class="list-title">Categories</h1>
+  <ul class="list-unstyled">
     
     
-    <li>
-      <a href="http://duxing.xyz/categories/development/">2018-02-09 | Development</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-09</span>
+      <a href="http://duxing.xyz/categories/development/">Development</a>
     </li>
     
-    <li>
-      <a href="http://duxing.xyz/categories/emacs/">2018-02-09 | Emacs</a>
+    <li class="list-item list-unstyled">
+      <span>2018-02-09</span>
+      <a href="http://duxing.xyz/categories/emacs/">Emacs</a>
     </li>
     
   </ul>
@@ -83,5 +79,12 @@
       <span>Powered By </span>
       <a href="http://gohugo.io/" target="_blank">Hugo</a>
     </footer>
+    <script>
+      var navBtn = document.getElementById("navBtn");
+      var nav = document.getElementById('nav');
+      navBtn.addEventListener('click', function () {
+      nav.style.display = 'block';
+      });
+    </script>
   </body>
 </html>
