@@ -47,9 +47,9 @@ a:visited {
 }
 /* header */
 .header {
-  height: 60px;
+  height: 3rem;
   width: 100%;
-  line-height: 60px;
+  line-height: 3rem;
   padding: 0;
   color: #FFFFCC;
   font-size: 1.5rem;
@@ -62,38 +62,38 @@ a:visited {
   z-index: 99;
 }
 .logo {
-  height: 60px;
-  width: 320px;
+  height: 3rem;
+  width: 17rem;
   text-align: center;
 }
 .header .logo-name {
-  height: 60px;
+  height: 3rem;
   display: block;
-  line-height: 60px;
+  line-height: 3rem;
   color: #FFFFCC;
   font-size: 1.4rem;
 }
 .nav {
-  height: 60px;
+  height: 3rem;
   position: absolute;
   top: 0;
-  left: 320px;
+  left: 17rem;
 }
 .nav-menu {
-  height: 60px;
+  height: 3rem;
   vertical-align: top;
 }
 .nav-menu li {
-  height: 60px;
+  height: 3rem;
   display: inline-block;
   vertical-align: top;
 }
 .nav a {
-  height: 60px;
+  height: 3rem;
   display: block;
   color: #FFFFCC;
   font-size: 1.2rem;
-  line-height: 60px;
+  line-height: 3rem;
   padding: 0 .8rem;
 }
 .nav .active a {
@@ -121,9 +121,9 @@ a:visited {
 
 /* footer */
 .footer {
-  height: 100px;
+  height: 5rem;
   width: 100%;
-  line-height: 100px;
+  line-height: 5rem;
   color: #666;
   background-color: #222;
   text-align: center;
@@ -131,20 +131,19 @@ a:visited {
 /*container*/
 .container {
   width: 100%;
-  max-width: 1500px;
   min-height: 660px;
   margin: 0 auto;
-  padding: 86px 20px 20px;
+  padding: 4.5rem 1.5rem 1.5rem;
   position: relative;
   top: 0;
   left: 0;
 }
 /* sidebar */
 .sidebar {
-  width: 280px;
+  width: 15rem;
   position: absolute;
-  top: 86px;
-  left: 20px;
+  top: 4.5rem;
+  left: 1.5rem;
 }
 .tags-box, .categories-box {
   padding: .6rem .8rem .8rem 1.1rem;
@@ -186,7 +185,7 @@ a:visited {
 }
 /* 设置padding-left, 显示导航部分 */
 .main-offset {
-  margin-left: 300px;
+  margin-left: 16rem;
 }
 /* home */
 .home-content {
@@ -414,8 +413,8 @@ a:visited {
 .table-of-contents {
   width: 11rem;
   position: fixed;
-  top: 86px;
-  right: 20px;
+  top: 4.5rem;
+  right: 1.5rem;
   bottom: 6rem;
   padding: .7rem;
   padding-left: 0;
