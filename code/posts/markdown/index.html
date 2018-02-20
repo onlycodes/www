@@ -114,6 +114,11 @@
       <span class="category-number"> (1)</span>
     </li>
     
+    <li class="category list-unstyled">
+      <a class="category-name" href="/categories/markdown">markdown</a>
+      <span class="category-number"> (1)</span>
+    </li>
+    
   </ul>   
 </div>
 
@@ -126,7 +131,7 @@
       <aside id="meta" class="single-meta-box">
         <section>
           <span id="date" class="date"> 2018-02-13 Tuesday </span>
-          <span id="wordcount" class="wordcount">字数: 154</span>
+          <span id="wordcount" class="wordcount">字数: 386</span>
         </section>
         <div class="single-tags-box">
           
@@ -146,11 +151,105 @@
       <article id="singleContent" class="single-content">
         
 
-<h1 id="标题一">标题一</h1>
+<h1 id="markdown-syntax">Markdown Syntax</h1>
 
-<h2 id="标题一丶一标题标题标题标题标题标题">标题一丶一标题标题标题标题标题标题</h2>
+<h2 id="标题">标题</h2>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">  <span class="gh">#</span> 一级标题
+  <span class="gu">##</span> 二级标题
+  <span class="gu">###</span> 三级标题
+  <span class="gu">####</span> 四级标题
+  <span class="gu">#####</span> 五级标题
+  ###### 六级标题</code></pre></div>
+<h3 id="三级标题">三级标题</h3>
 
-<p>标题一点一的段落</p>
+<h4 id="四级标题">四级标题</h4>
+
+<h5 id="五级标题">五级标题</h5>
+
+<h6 id="六级标题">六级标题</h6>
+
+<h2 id="段落">段落</h2>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">  另起一行即为段落</code></pre></div>
+<p>段落示例</p>
+
+<h2 id="列表">列表</h2>
+
+<h3 id="无序列表">无序列表</h3>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">*</span> 无序列表一<span class="err">
+</span><span class="err"></span><span class="k">*</span> 无序列表二<span class="err">
+</span><span class="err"></span><span class="k">*</span> 无序列表三<span class="err">
+</span><span class="err"></span>    
+    <span class="k">*</span> 无序列表三丶一<span class="err">
+</span><span class="err"></span>    * 无序列表三丶二</code></pre></div>
+<ul>
+<li>无序列表一</li>
+<li>无序列表二</li>
+
+<li><p>无序列表三</p>
+
+<ul>
+<li>无序列表三丶一</li>
+<li>无序列表三丶二</li>
+</ul></li>
+</ul>
+
+<h3 id="有序列表">有序列表</h3>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="k">1.</span> 有序列表一<span class="err">
+</span><span class="err"></span><span class="k">2.</span> 有序列表二<span class="err">
+</span><span class="err"></span><span class="k">3.</span> 有序列表三<span class="err">
+</span><span class="err"></span>    
+    <span class="k">1.</span> 有序列表三丶一<span class="err">
+</span><span class="err"></span>    2. 有序列表三丶二</code></pre></div>
+<ol>
+<li>有序列表一</li>
+<li>有序列表二</li>
+
+<li><p>有序列表三</p>
+
+<ol>
+<li>有序列表三丶一</li>
+<li>有序列表三丶二
+<br /></li>
+</ol></li>
+</ol>
+
+<h2 id="代码块">代码块</h2>
+
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="s">```language</span>
+<span class="s">    code body
+</span><span class="s">```</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+
+<span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&#34;Hello Golang!&#34;</span><span class="p">)</span>
+<span class="p">}</span></code></pre></div>
+<h2 id="表格">表格</h2>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">| 表格头  | 表格头2 |<span class="err">
+</span><span class="err"></span>|--------:|---------|<span class="err">
+</span><span class="err"></span>| 内容    | 内容    |<span class="err">
+</span><span class="err"></span>| 内容二  | 内容二  |</code></pre></div>
+<table>
+<thead>
+<tr>
+<th align="right">表格头</th>
+<th>表格头2</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">内容</td>
+<td>内容</td>
+</tr>
+
+<tr>
+<td align="right">内容二</td>
+<td>内容二</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -185,7 +284,7 @@
 </tbody>
 </table>
 
-<h2 id="标题一丶二">标题一丶二</h2>
+<h2 id="引用">引用</h2>
 
 <blockquote>
 <p>块引用
@@ -196,9 +295,7 @@ ddddddd</p>
 </blockquote>
 </blockquote>
 
-<h1 id="标题二">标题二</h1>
-
-<h2 id="标题二丶二">标题二丶二</h2>
+<h2 id="文本样式">文本样式</h2>
 
 <p>段落段落<code>code inline</code> 大大大大大</p>
 
@@ -220,6 +317,10 @@ ddddddd</p>
 <div class="highlight"><pre class="chroma"><code class="language-rust" data-lang="rust"><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span><span class="w">    </span><span class="n">println</span><span class="o">!</span><span class="p">(</span><span class="s">&#34;hello&#34;</span><span class="p">);</span><span class="w">
 </span><span class="w"></span><span class="p">}</span></code></pre></div>
+<p><em>斜体</em></p>
+
+<p><strong>粗体</strong></p>
+
       </article>
     </div>
     <nav class="single-nav">
@@ -240,14 +341,31 @@ ddddddd</p>
   <div class="table-of-contents">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#标题一">标题一</a>
+<li><a href="#markdown-syntax">Markdown Syntax</a>
 <ul>
-<li><a href="#标题一丶一标题标题标题标题标题标题">标题一丶一标题标题标题标题标题标题</a></li>
-<li><a href="#标题一丶二">标题一丶二</a></li>
+<li><a href="#标题">标题</a>
+<ul>
+<li><a href="#三级标题">三级标题</a>
+<ul>
+<li><a href="#四级标题">四级标题</a>
+<ul>
+<li><a href="#五级标题">五级标题</a>
+<ul>
+<li><a href="#六级标题">六级标题</a></li>
 </ul></li>
-<li><a href="#标题二">标题二</a>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#段落">段落</a></li>
+<li><a href="#列表">列表</a>
 <ul>
-<li><a href="#标题二丶二">标题二丶二</a></li>
+<li><a href="#无序列表">无序列表</a></li>
+<li><a href="#有序列表">有序列表</a></li>
+</ul></li>
+<li><a href="#代码块">代码块</a></li>
+<li><a href="#表格">表格</a></li>
+<li><a href="#引用">引用</a></li>
+<li><a href="#文本样式">文本样式</a></li>
 </ul></li>
 <li><a href="#标题三">标题三</a></li>
 </ul>

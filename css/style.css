@@ -385,7 +385,7 @@ a:visited {
   margin: .5rem 0;
 }
 .single-content pre {
-  margin: .5rem 0;
+  margin: .8rem 0;
 }
 
 .single-content blockquote {
@@ -400,12 +400,22 @@ a:visited {
   background-color: #F0F0F0;
   line-height: 1rem;
 }
+.single-content table {
+  margin: 1rem 0;
+}
 .single-content td, .single-content th {
   padding: .2rem .4rem;
 }
 .single-content tbody tr:nth-of-type(even) {
   background-color: #F6F8FA;
 }
+.single-content em {
+  font-style: italic;
+}
+.single-content strong {
+  font-weight: bold;
+}
+
 .single-nav {
   margin-top: 1.2rem;
   line-height: 1.4rem;
